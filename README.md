@@ -21,9 +21,9 @@ Remember, we will be reading through and running your code, so it is in _your be
 ## README example
 This is an example `README.md` for students to use. **Please change this to your requirements**.
 
-**Research Goal:** My research goal is tip analysis for credit card payments
+**Research Goal:** My research goal is Effects of Weather on Yellow and Green Taxi demand
 
-**Timeline:** The timeline for the research area is 2018 - 2021.
+**Timeline:** The timeline for the research area is January 1 - June 30 2019.
 
 To run the pipeline, please visit the `scripts` directory and run the files in order:
 1. `download.py`: This downloads the raw data into the `data/raw` directory.
