@@ -7,6 +7,14 @@
 
 **Timeline:** The timeline for the research area is January 1 - June 30 2019.
 
+For the external weather dataset, please visit `https://www.visualcrossing.com/weather/weather-data-services#` and follow these steps
+1. Change the date from January 1 2019-June 30 2019
+2. Change units to Celcius and km 
+3. Make sure you're clicking hourly data
+4. Click download
+
+However, you can only download about 1,000 records per day without the paid account.
+
 To run the pipeline, please visit the `scripts` directory and run the files in order:
 1. `download.py`: This downloads the raw data into the `data/raw` directory.
 2. `Preprocess (Taxi).ipynb`: This notebook details all preprocessing steps for taxi and outputs it to the `data/curated` directory.
