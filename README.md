@@ -16,7 +16,7 @@ For the external weather dataset, please visit `https://www.visualcrossing.com/w
 However, you can only download about 1,000 records per day without the paid account.
 
 To run the pipeline, please visit the `scripts` directory and run the files in order:
-1. `download.py`: This downloads the raw data into the `data/raw` directory.
+1. `download.py`: This downloads the raw taxidata into the `data/raw` directory, see above for external data download.
 2. `Preprocess (Taxi).ipynb`: This notebook details all preprocessing steps for taxi and outputs it to the `data/curated` directory.
 3. `Preprocess (Weather).ipynb`: This notebook details all preprocessing steps for the weather data and outputs it to the `data/curated` directory.
 4. `Preprocess (Both).ipynb`: This notebook details all preprocessing steps for merging both datas and outputs it to the `data/curated` directory.
