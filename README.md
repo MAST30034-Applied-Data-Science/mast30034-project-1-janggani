@@ -9,6 +9,9 @@
 
 To run the pipeline, please visit the `scripts` directory and run the files in order:
 1. `download.py`: This downloads the raw data into the `data/raw` directory.
-2. `preprocess.ipynb`: This notebook details all preprocessing steps and outputs it to the `data/curated` directory.
-3. `analysis.ipynb`: This notebook is used to conduct analysis on the curated data.
-4. `model.py` and `model_analysis.ipynb`: The script is used to run the model from CLI and the notebook is used for analysing and discussing the model.
+2. `Preprocess (Taxi).ipynb`: This notebook details all preprocessing steps for taxi and outputs it to the `data/curated` directory.
+3. `Preprocess (Weather).ipynb`: This notebook details all preprocessing steps for the weather data and outputs it to the `data/curated` directory.
+4. `Preprocess (Both).ipynb`: This notebook details all preprocessing steps for merging both datas and outputs it to the `data/curated` directory.
+5. `Visualization.ipynb and Geospatial visualization.ipynb`: This notebook details all visualizations required in the report and is outputed to the `plots` directory
+6. `Linear Regression Model.ipynb`: This notebook is used to conduct linear regression on the curated data.
+7. `Poisson Regression Model.ipynb`: This notebook is used to conduct poisson regression on the curated data.
