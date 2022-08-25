@@ -21,7 +21,7 @@ Remember, we will be reading through and running your code, so it is in _your be
 ## README example
 This is an example `README.md` for students to use. **Please change this to your requirements**.
 
-**Research Goal:** My research goal is Effects of Weather on Yellow and Green Taxi demand
+**Research Goal:** My research goal is Effects of Weather on Taxi Consumer Behavior
 
 **Timeline:** The timeline for the research area is January 1 - June 30 2019.
 
